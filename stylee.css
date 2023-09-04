@@ -1,0 +1,171 @@
+body {
+	background: #fff;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #800080;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: purple;
+}
+
+input {
+	display: inline;
+	border: 2px solid #800080;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #800080;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #800080;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(93, 18, 95);
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #000;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+.home-nav a {
+	padding: 10px;
+	color: #f7bd65;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+[type="date"] 
+  {
+	background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+	display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+	opacity: 0;
+  }
+  
+  .wrapper-class input[type="radio"] {
+	width: 15px;
+	accent-color: #800080;
+	}
+  
+  
+  .wrapper-class label {
+	display: inline;
+	margin-left: 5px;
+	
+  }
+
+  .clor{
+	font-size: 14px;
+	display: inline-block;
+	padding: 3px;
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	width: 190px;
+	border: 3px solid #800080;
+	padding: 26px;
+	margin: 25px 120px 10px;
+  }
+
+.kouti{
+	font-size: 17px;
+	display: inline-block;
+	padding: 7px;
+	text-decoration: none;
+	color: #800080;
+}
+
+table{
+	display: flex;
+	width: 100%;
+	color:#000;
+	font-family: sans-serif;
+	font-size: 18px;
+	justify-content: center;
+	text-align: center;
+}
+
+th{
+	background-color: #800080;
+	color :#fff;
+	font-size: 22px;
+	text-align: center;
+}
+
+tr:nth-child(even){
+	background-color: #e2c9e2;
+}
+
+
+
